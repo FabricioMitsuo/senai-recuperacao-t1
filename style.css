@@ -1,0 +1,69 @@
+* {
+    padding: 0;
+    /* da espaco interno dentro de um elemento */
+    margin: 0;
+    /* da espaco externo do elemento */
+}
+
+.imagem_logo {
+    width: 100px;
+    height: 100px;
+
+}
+
+header {
+    background-color: aqua;
+    display: flex;/* torna flexivel os elementos dentro da sua outro elemento */
+    width: 100%;
+    height: 200px;
+    align-items: center;/* pega o sentido contrario do flex */
+    justify-content:space-between;
+    
+}
+
+header nav{
+    background-color:brown;
+    width: 300px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 150px;
+
+    }
+
+    header nav a{
+        color: aliceblue; /* cor do texto */
+        text-decoration: none; /* propriedade que decora o texto */
+        
+    }
+
+    aside{
+        background-color: aquamarine;
+        justify-content: center;
+        display: flex;
+        width: 100px;
+        height:100px;
+
+
+    }
+
+    main{
+        background-color:blueviolet;
+
+    }
+
+    footer{
+        background-color:bisque;
+
+    }
+
+    h1{
+        text-align: center;
+    }
+
+    p{
+        text-align: end;
+        
+    }
+
+ 
